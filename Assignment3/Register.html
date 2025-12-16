@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <title>Registration page</title>
+</head>
+<body>
+    <div class="layout">
+        <h1>Register</h1>
+        <label>Name</label><br>
+        <input type="text" id="name1"  placeholder="Enter name"><br>
+        <div id="nameError"></div>
+        <label>Email Address</label><br>
+        <input type="email" id="Email1" placeholder="Enter Email"><br>
+        <div id="EmailError"></div>
+        <label>Password</label><br>
+        <input type="password" id="pass" placeholder="Enter password"><br>
+        <div id="passError"></div>
+        <label>Phone Number</label><br>
+        <input type="number" id="phone" placeholder="Enter phone number"><br>
+        <div id="phoneError"></div>
+        <button id="save" onclick="validateForm()" >Register</button>
+    </div>
+    <script src="./Register.js"></script>
+</body>
+</html>
